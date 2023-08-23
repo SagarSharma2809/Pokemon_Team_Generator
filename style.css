@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    display: inline-block;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 1.2em;
+}
+
+#header img {
+    height: 50px;
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#generateButton {
+    font-size: 1.2em;
+    margin: 1.2em;
+    padding: 0.8em 1.5em;
+    border-radius: 1.05em;
+    border: 2px solid rgb(255, 0, 98);
+    background-color: darkgray;
+    font-weight: 500;
+    transition: all 0.3s;
+    color: black;
+
+}
+
+#generateButton:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pokemon {
+    margin: 1.2em;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1.1em;
+}
+
+.pokemon img {
+    height: 130px;
+
+}
